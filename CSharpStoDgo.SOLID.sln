@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP", "SRP\SRP.csproj", "{2BCAE562-69A2-4516-B176-BDBA8299108C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- SRP Single Responsability Principle", "1- SRP Single Responsability Principle", "{621FF068-562A-48D8-8C56-19214E4193BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- OCP Open Close Principle", "2- OCP Open Close Principle", "{7024D887-DE8F-4BBD-BB49-D4741A8EC47A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP", "OCP\OCP.csproj", "{807475FE-9399-44FF-BB6C-8BBE91B29F38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- LSP Liskov Sustitution Principle", "3- LSP Liskov Sustitution Principle", "{73702753-E33D-4ABA-8F82-D9C28282917E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP", "LSP\LSP.csproj", "{13D1FFE9-315D-4E3B-B03B-78AA23E178FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- ISP Interface Segregation Principle", "4- ISP Interface Segregation Principle", "{17719CF3-BAED-4072-AA41-FEE66AC33AAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISP", "ISP\ISP.csproj", "{71DA89FD-FE5B-4A11-8EFE-3EAECAB69829}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5- DIP Dependency Inversion Principle", "5- DIP Dependency Inversion Principle", "{9FBA812F-3269-4ECD-BD77-AF8B98708158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP", "DIP\DIP.csproj", "{E49A051B-F858-4864-82B5-515E1CCF713E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Tests", "SOLID.Tests\SOLID.Tests.csproj", "{CFC0DE99-38D1-4141-BD69-D8C65C1FCC6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BCAE562-69A2-4516-B176-BDBA8299108C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BCAE562-69A2-4516-B176-BDBA8299108C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BCAE562-69A2-4516-B176-BDBA8299108C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BCAE562-69A2-4516-B176-BDBA8299108C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{807475FE-9399-44FF-BB6C-8BBE91B29F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{807475FE-9399-44FF-BB6C-8BBE91B29F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{807475FE-9399-44FF-BB6C-8BBE91B29F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{807475FE-9399-44FF-BB6C-8BBE91B29F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D1FFE9-315D-4E3B-B03B-78AA23E178FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D1FFE9-315D-4E3B-B03B-78AA23E178FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D1FFE9-315D-4E3B-B03B-78AA23E178FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D1FFE9-315D-4E3B-B03B-78AA23E178FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71DA89FD-FE5B-4A11-8EFE-3EAECAB69829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71DA89FD-FE5B-4A11-8EFE-3EAECAB69829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71DA89FD-FE5B-4A11-8EFE-3EAECAB69829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71DA89FD-FE5B-4A11-8EFE-3EAECAB69829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49A051B-F858-4864-82B5-515E1CCF713E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49A051B-F858-4864-82B5-515E1CCF713E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49A051B-F858-4864-82B5-515E1CCF713E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49A051B-F858-4864-82B5-515E1CCF713E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC0DE99-38D1-4141-BD69-D8C65C1FCC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC0DE99-38D1-4141-BD69-D8C65C1FCC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC0DE99-38D1-4141-BD69-D8C65C1FCC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC0DE99-38D1-4141-BD69-D8C65C1FCC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2BCAE562-69A2-4516-B176-BDBA8299108C} = {621FF068-562A-48D8-8C56-19214E4193BA}
+		{807475FE-9399-44FF-BB6C-8BBE91B29F38} = {7024D887-DE8F-4BBD-BB49-D4741A8EC47A}
+		{13D1FFE9-315D-4E3B-B03B-78AA23E178FC} = {73702753-E33D-4ABA-8F82-D9C28282917E}
+		{71DA89FD-FE5B-4A11-8EFE-3EAECAB69829} = {17719CF3-BAED-4072-AA41-FEE66AC33AAD}
+		{E49A051B-F858-4864-82B5-515E1CCF713E} = {9FBA812F-3269-4ECD-BD77-AF8B98708158}
+	EndGlobalSection
+EndGlobal
